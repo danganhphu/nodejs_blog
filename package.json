@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "CHOKIDAR_USEPOLLING=true nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danganhphu/nodejs_blog.git"
+  },
+  "keywords": [
+    "nodejs",
+    "blog",
+    "f8nodejs"
+  ],
+  "author": "danganhphu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danganhphu/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/danganhphu/nodejs_blog#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
